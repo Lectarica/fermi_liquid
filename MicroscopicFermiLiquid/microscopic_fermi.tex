@@ -27,17 +27,43 @@
 \date{}
 \begin{document}
 \maketitle
-\section{}
-\subsection{}
+\section{道具立て}
+\subsection{前書き(ノーテーション確認)}
 ランダウのフェルミ流体理論は準粒子描像を手掛かりに
 現象論的な結果を導いてきたが、ダイアグラムを導入して
 任意の次数に関する摂動展開の理論を展開させたのは
 アブリコソフとカラトニコフであった。
 
 \subsection{2粒子グリーン関数}
+2粒子グリーン関数を、4個のハイゼンベルク演算子のT積を基底状態についての
+平均
+\begin{equation}
+    K_{34,12}(\bm{x}_1t_1,\bm{x}_2t_2;\bm{x}^{'}_1t^{'}_1,\bm{x}^{'}_2t^{'}_2) =
+     \langle T [\hat{\psi}_3 \hat{\psi}_4 \hat{\psi}^{\dagger}_1\hat{\psi}^{\dagger}_2]\rangle
+\end{equation}
+で定義する。最も低次の近似では、1粒子グリーン関数$G^{0}$の積の和に分解される。
+\begin{equation}
+    K_{34,12}^{0} = G_{31}^{(0)}G_{42}^{(0)} - G_{32}^{(0)}G_{41}^{(0)} 
+\end{equation}
+これはダイアグラムで表すと次のようになる。
+以下、運動量表示による議論を行う。
+
+\subsection{バーテックス関数}
+
+\section{フェルミ流体の基礎的性質}
+
+\section{LW理論}
+
+\section{Ward恒等式}
+
+\section{ランダウ理論との整合性}
+
 
 \begin{thebibliography}{99}
     \bibitem{pitaevskii} リフシッツ・ピタエフスキー、『量子統計物理学』(岩波書店)
+    \bibitem{luttinger-noziers}P. Nozières and J. M. Luttinger, Phys. Rev. $\bm{127}, 1423, 1431(1962)$
+    \bibitem{luttinger-ward}J. M. Luttinger and J. C. Ward, Phys. Rev. $\bm{118}, 1417(1960)$
+    \bibitem{luttinger-kohn}
 \end{thebibliography}
 
 \end{document}

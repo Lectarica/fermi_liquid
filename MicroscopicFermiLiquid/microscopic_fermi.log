@@ -1,9 +1,9 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2022.4.17)  18 FEB 2023 19:16
+This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2022.4.17)  18 FEB 2023 20:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/k-shimura/fermi_liquid/microscopic_fermi
-(/home/k-shimura/fermi_liquid/microscopic_fermi.tex
+**/home/k-shimura/fermi_liquid/MicroscopicFermiLiquid/microscopic_fermi
+(/home/k-shimura/fermi_liquid/MicroscopicFermiLiquid/microscopic_fermi.tex
 pLaTeX2e <2020-02-02>+2 (based on LaTeX2e <2020-02-02> patch level 2)
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/platex/base/jarticle.cls
@@ -389,7 +389,7 @@ File: l3backend-dvips.def 2020-02-03 L3 backend support: dvips
 \g__pdf_backend_link_int=\count277
 \g__pdf_backend_link_sf_int=\count278
 )
-No file microscopic_fermi.aux.
+(./microscopic_fermi.aux)
 \openout1 = `microscopic_fermi.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -410,6 +410,7 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -480,12 +481,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 4789 strings out of 481768
- 63274 string characters out of 5933620
- 334496 words of memory out of 5000000
- 20109 multiletter control sequences out of 15000+600000
- 547881 words of font info for 85 fonts, out of 8000000 for 9000
+ 4805 strings out of 481768
+ 63606 string characters out of 5933620
+ 336505 words of memory out of 5000000
+ 20122 multiletter control sequences out of 15000+600000
+ 550324 words of font info for 94 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 30i,7n,45p,257b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,7n,45p,280b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on microscopic_fermi.dvi (1 page, 1648 bytes).
+Output written on microscopic_fermi.dvi (1 page, 3580 bytes).
