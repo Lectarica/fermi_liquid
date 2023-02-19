@@ -41,7 +41,7 @@
     K_{34,12}(\bm{x}_1t_1,\bm{x}_2t_2;\bm{x}^{'}_1t^{'}_1,\bm{x}^{'}_2t^{'}_2) =
      \langle T [\hat{\psi}_3 \hat{\psi}_4 \hat{\psi}^{\dagger}_1\hat{\psi}^{\dagger}_2]\rangle
 \end{equation}
-で定義する。最も低次の近似では、1粒子グリーン関数$G^{0}$の積の和に分解される。
+で定義する。最も低次の近似では、2粒子グリーン関数は1粒子グリーン関数$G^{0}$の積の和に分解される。
 \begin{equation}
     K_{34,12}^{0} = G_{31}^{(0)}G_{42}^{(0)} - G_{32}^{(0)}G_{41}^{(0)} 
 \end{equation}
@@ -51,7 +51,32 @@
 \subsection{バーテックス関数}
 
 \section{フェルミ流体の基礎的性質}
-
+\subsection{準粒子}
+原子間距離が熱的ドブロイ波長程度になると
+古典論の適用限界を迎え、量子効果が顕著になってくる。
+実際液体の状態を保ったまま量子効果が現れるのは
+ヘリウムのみであるが、多少の条件を課すことによって
+一般のフェルミ多体系に議論を拡張することが可能になる。
+そのような条件を考察することにする。\\
+系が励起するとフェルミ分布関数はヘヴィサイド型関数から
+ずれ、その微分係数がフェルミエネルギー近傍で有限の値を持つようになる。
+この素励起を準粒子と呼んで、相互作用のない場合におけるのと同様、
+各準粒子に運動量$\bm{p}$およびスピン$\sigma$を割り振れると仮定される。
+\subsection{くりこみ因子}
+粒子にゆっくり相互作用を印加して、1粒子グリーン関数が
+\begin{equation}
+    G^{0} = \frac{1}{i\omega_n - \epsilon_{\bm{k}}} \rightarrow G = \frac{1}{i\omega_n - \epsilon_{\bm{k}} - \Sigma(\bm{k},i\epsilon_n)}
+\end{equation}
+と変化したとする。
+\begin{equation}
+    G / G^{0} = \frac{z-\epsilon_{\bm{k}}}{z-\epsilon_{\bm{k}} - \Sigma} = \frac{1}{1 - \frac{\Sigma}{z - \epsilon_{k}}}
+\end{equation}
+であり、$z \rightarrow \epsilon_{k}$とすると、エネルギー$\epsilon_k$をもつ
+粒子の自己エネルギーは$0$であるから
+\begin{equation}
+    Z = \frac{1}{1-\frac{\partial \Sigma}{\partial z}|_{z = \epsilon_{k}}}
+\end{equation}
+が成立する。$Z$はここではグリーン関数の変化分を意味しており、くりこみ因子と呼ぶ。
 \section{LW理論}
 
 \section{Ward恒等式}

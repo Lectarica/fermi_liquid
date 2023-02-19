@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2022.4.17)  18 FEB 2023 20:30
+This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2022.4.17)  19 FEB 2023 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -474,19 +474,15 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 31.
  [1
 
-]
-(./microscopic_fermi.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] [2]
+(./microscopic_fermi.aux) ) 
 Here is how much of TeX's memory you used:
  4805 strings out of 481768
  63606 string characters out of 5933620
- 336505 words of memory out of 5000000
+ 337508 words of memory out of 5000000
  20122 multiletter control sequences out of 15000+600000
  550324 words of font info for 94 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  30i,7n,45p,280b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on microscopic_fermi.dvi (1 page, 3580 bytes).
+Output written on microscopic_fermi.dvi (2 pages, 6240 bytes).
